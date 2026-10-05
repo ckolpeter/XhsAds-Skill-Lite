@@ -1,0 +1,115 @@
+{
+  "slug": "xhsads",
+  "name": "XhsAds Skill Lite",
+  "platform": "xiaohongshu",
+  "market": "CN",
+  "currency": "CNY",
+  "focus": "小紅書種草／搜尋／客資／成交分流，CPE／CPL 與筆記企劃",
+  "modes": [
+    "commerce",
+    "seeding",
+    "search",
+    "leads"
+  ],
+  "workflows": {
+    "commerce": [
+      "確認電商成交目標與商品資質",
+      "使用同口徑淨收入核算",
+      "核對筆記素材與商品頁",
+      "不把收藏視為成交"
+    ],
+    "seeding": [
+      "明確種草目標與觀察事件",
+      "產出選題、封面方向與標題假設",
+      "只使用可證實主張",
+      "看互動事件成本而非捏造 ROAS"
+    ],
+    "search": [
+      "整理使用者提供的搜尋意圖",
+      "讓筆記回答具體需求",
+      "確認平台實際支援的搜索功能",
+      "記錄流量或客資／成交目標"
+    ],
+    "leads": [
+      "先定義客資與有效客資",
+      "確認同意流程與後續跟進",
+      "以假設成交率做 CPL 上限情境",
+      "不收集姓名電話等個資"
+    ]
+  },
+  "creative_tasks": {
+    "commerce": [
+      "商品事實→筆記說明→購買路徑",
+      "不捏造使用心得"
+    ],
+    "seeding": [
+      "實際使用流程／選購條件／常見問題三種選題",
+      "封面單一重點、標題不誇大"
+    ],
+    "search": [
+      "需求問句→標題候選→證據段落→CTA",
+      "無即時熱門詞與搜尋量"
+    ],
+    "leads": [
+      "筆記→詢問→有效客資→跟進清單",
+      "CPL、有效 CPL 與成交回報分開"
+    ]
+  },
+  "budget_scope": {
+    "commerce": "equal_split_pilot_accounting_not_live_settings",
+    "seeding": "equal_split_pilot_accounting_not_live_settings",
+    "search": "equal_split_pilot_accounting_not_live_settings",
+    "leads": "equal_split_pilot_accounting_not_live_settings"
+  },
+  "storefronts": [
+    "xiaohongshu"
+  ],
+  "report_goals": [
+    "sales",
+    "leads",
+    "engagement",
+    "traffic"
+  ],
+  "notes": [
+    "聚光生態不等於單純 SKU ROAS 工具。互動、私信、客資、有效客資與訂單必須分開。",
+    "非成交目標不生成營收 ROAS，不把 CPL 情境當已實現收益。"
+  ],
+  "checklist": [
+    "確認商家端實際功能、站點及商品資格",
+    "核對收入、優惠、退款與佣金是否重複扣除",
+    "只使用授權素材與可證實主張",
+    "核對歸因期間、行層級與是否含自然成交"
+  ],
+  "sources": [
+    {
+      "id": "XHSADS-1",
+      "title": "小紅書官方種草學",
+      "url": "https://xue.xiaohongshu.com/",
+      "checked_on": "2026-10-05",
+      "scope": "CN",
+      "verification": "scope_verified",
+      "summary": "Official learning site distinguishes product seeding, lead acquisition and e-commerce conversion."
+    },
+    {
+      "id": "XHSADS-2",
+      "title": "聚光幫助中心",
+      "url": "https://ad.xiaohongshu.com/next_help/home",
+      "checked_on": "2026-10-05",
+      "scope": "CN",
+      "verification": "portal_only",
+      "summary": "Public page exposed no readable help content; live objectives and targeting controls remain unverified."
+    }
+  ],
+  "skill_id": "xhsads-skill-lite",
+  "repo": "ckolpeter/XhsAds-Skill-Lite",
+  "version": "1.0.0",
+  "source_policy": "Public-source scope snapshot 2026-10-05. Local modes are NOT platform enums. No live capability claim.",
+  "focus_i18n": [
+    "小紅書種草／搜尋／客資／成交分流，CPE／CPL 與筆記企劃",
+    "小红书种草／搜索／客资／成交分流，CPE／CPL 与笔记企划",
+    "Xiaohongshu seeding/search/leads/commerce planning with CPE/CPL and note briefs",
+    "小紅書の認知・検索・リード・販売を分離し、CPE/CPLと投稿を企画",
+    "샤오홍슈 시딩·검색·리드·판매 분리 기획, CPE/CPL 및 게시물 브리프"
+  ],
+  "english": "Xiaohongshu seeding/search/leads/commerce planning with CPE/CPL and note briefs"
+}

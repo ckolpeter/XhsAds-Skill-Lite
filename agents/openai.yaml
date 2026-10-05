@@ -1,0 +1,6 @@
+interface:
+  display_name: "XhsAds Skill Lite"
+  short_description: "小紅書種草／搜尋／客資／成交分流，CPE／CPL 與筆記企劃"
+  default_prompt: "Use $xhsads-skill-lite to prepare a mainland-China offline plan from supplied data, preserving unknowns and requiring human review."
+policy:
+  allow_implicit_invocation: true

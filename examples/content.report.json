@@ -1,0 +1,48 @@
+{
+  "platform": "xiaohongshu",
+  "market": "CN",
+  "currency": "CNY",
+  "source": {
+    "kind": "synthetic",
+    "note": "Fictional de-identified example; not live campaign results."
+  },
+  "campaign_mode": "leads",
+  "start_date": "2026-09-01",
+  "end_date": "2026-09-14",
+  "attribution_window": "Synthetic settled snapshot for the same reporting period; replace with actual export definition.",
+  "window_complete": true,
+  "rows_disjoint": true,
+  "sales_scope": "paid_click",
+  "revenue_basis": "gross_reported",
+  "rows": [
+    {
+      "sku": "demo-cup",
+      "impressions": 1000,
+      "clicks": 50,
+      "orders": null,
+      "spend": "100",
+      "revenue": null,
+      "leads": 10,
+      "qualified_leads": 5,
+      "interactions": 30
+    },
+    {
+      "sku": "demo-hold",
+      "impressions": 500,
+      "clicks": 10,
+      "orders": null,
+      "spend": "20",
+      "revenue": null,
+      "leads": 0,
+      "qualified_leads": 0,
+      "interactions": 5
+    }
+  ],
+  "goal": "leads",
+  "measurement": {
+    "billing_model": "cpc",
+    "attribution_evidence": "SYNTHETIC paid-click cohort; no live platform assertion",
+    "settlement_confirmed": false,
+    "row_unit": "note"
+  }
+}
